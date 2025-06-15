@@ -4,7 +4,7 @@ employee = open('employee_data.csv','r')
 
 employee_file = csv.reader(employee)
 
-outfile = open('employeePay.csv' , 'w')
+outfile = open('EmployeePay.csv' , 'w')
 
 next(employee_file)
 
